@@ -12,13 +12,11 @@
     </div>
 
     <!--Vdoing主题遵循MIT协议，完全开源且免费。如果您对主题的修改并不大，希望您保留主题的链接。-->
-    Theme by
-    <a
-      href="https://github.com/Zervan29131"
+    
+    <a href="https://zervan.cn"
       target="_blank"
-      title="vilivala"
-      >vilivala</a
-    >
+      title="zervan"
+      >Zervan的小站</a> · VERSION: 0.1.256 · 基于bilibala构建
     <template v-if="footer">
       | Copyright © {{ footer.createYear }}-{{ new Date().getFullYear() }}
       <span v-html="footer.copyrightInfo"></span>

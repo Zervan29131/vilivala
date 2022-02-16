@@ -14,7 +14,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     '/': {
       lang: 'zh-CN',
       title: "Zervan的小站",
-      description: 'Stay hungry stay foolish',
+      description: 'Be the change you want to see in the World',
     }
   },
   // base: '/vilivala-gh/',
@@ -131,7 +131,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     //   '图标地址1',
     //   '图标地址2'
     // ],
-    // contentBgStyle: 1, // 文章内容块的背景风格，默认无. 1 方格 | 2 横线 | 3 竖线 | 4 左斜线 | 5 右斜线 | 6 点状
+    contentBgStyle: 6, // 文章内容块的背景风格，默认无. 1 方格 | 2 横线 | 3 竖线 | 4 左斜线 | 5 右斜线 | 6 点状
 
     // updateBar: { // 最近更新栏
     //   showToArticle: false, // 显示到文章页底部，默认true
@@ -147,34 +147,45 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
       name: 'Zervan', // 必需
-      link: 'https://github.com/Zervan29131', // 可选的
+      link: 'https://zervan.cn', // 可选的
     },
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: '/img/console.png',
+      avatar: '/img/console.jpg',
       name: 'Zervan',
-      slogan: 'Stay hungry stay foolish',
+      slogan: 'Be the change you want to see in the World',
     },
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
     social: {
       // iconfontCssFile: '//at.alicdn.com/t/xxx.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自己添加。阿里图片库：https://www.iconfont.cn/
       icons: [
+     
         {
+          iconClass: 'icon-zhihu',
+          title: '知乎',
+          link: 'https://www.zhihu.com/people/zervan',
+        },
+        {
+          iconClass: 'icon-bilibili',
+          title: 'bilibili',
+          link: 'https://space.bilibili.com/1650366974',
+        }, 
+        {
+          iconClass: 'icon-douyin',
+          title: '抖音',
+          link: 'https://v.douyin.com/L7jT1xp/',
+        },
+        {
+          iconClass: 'icon-weibo',
+          title: '微博',
+          link: 'https://weibo.com/zervan',
+        },  
+         {
           iconClass: 'icon-youjian',
           title: '发邮件',
           link: 'mailto:nickmechlin01@outlook.com',
-        },
-        {
-          iconClass: 'icon-github',
-          title: 'GitHub',
-          link: 'https://github.com/Zervan29131',
-        },
-        {
-          iconClass: 'icon-erji',
-          title: '听音乐',
-          link: 'https://music.163.com/#/playlist?id=755597173',
         },
       ],
     },
@@ -183,7 +194,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     footer: {
       createYear: 2021, // 博客创建年份
       copyrightInfo:
-        'Zervan | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
+        ' | <a href="http://www.beian.gov.cn" target="_blank">鲁ICP备2021036977号-1</a>', 
+        // 博客版权信息，支持a标签或换行标签</br>
     },
 
     // 自定义hmtl(广告)模块
@@ -197,7 +209,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       'meta',
       {
         name: 'keywords',
-        content: 'Stay hungry stay foolish',
+        content: 'Be the change you want to see in the World',
       },
     ],
     ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
@@ -290,13 +302,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     'vuepress-plugin-comment': {
       choosen: 'gitalk',
       options: {
-        clientID: 'a6e1355287947096b88b',
-        clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
-        repo: 'blog-gitalk-comment', // GitHub 仓库
+        clientID: '0a0ba3159c4c845642a0',
+        clientSecret: '8c55fd00b9cf605aa0ca5dc475fec5c1b5830053',
+        repo: 'vilivala-gh', // GitHub 仓库
         owner: 'Zervan29131', // GitHub仓库所有者
         admin: ['Zervan29131'], // 对仓库有写权限的人
         // distractionFreeMode: true,
-        pagerDirection: 'last', // 'first'正序 | 'last'倒序
+        pagerDirection: 'first', // 'first'正序 | 'last'倒序
         id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
         title: '「评论」<%- frontmatter.title %>', // GitHub issue 的标题
         labels: ['Gitalk', 'Comment'], // GitHub issue 的标签
