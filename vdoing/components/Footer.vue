@@ -16,7 +16,7 @@
     <a href="https://zervan.cn"
       target="_blank"
       title="zervan"
-      >Zervan的小站</a> · VERSION: 0.1.256 · 基于vilivala构建
+      >Zervan的小站</a> · VERSION: 1.0.128 · 基于vilivala构建
     <template v-if="footer">
       | Copyright © {{ footer.createYear }}-{{ new Date().getFullYear() }}
       <span v-html="footer.copyrightInfo"></span>
