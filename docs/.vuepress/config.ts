@@ -45,7 +45,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: '技术',
             items: [
-              { text: '视频制作脚本教程', link: '/pages/a1bc25/' },         
+              { text: '面向对象编程', link: '/pages/a1bc23/' },         
             ],
           },
           {
@@ -72,14 +72,25 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: 'fun',
         link: '/fun/',
         items: [
-          { text: '经常看书和不看书', link: '/pages/a2bc20/' },
-        ],
+          {
+            text: '测评',
+            items: [
+              { text: '200元以内耳机推荐', link: '/pages/7634a/' },         
+            ],
+          },
+          {
+            text: '教程',
+            items: [
+              { text: '视频制作脚本教程', link: '/pages/a1bc25/' },         
+            ],
+          },
+
+      ],
       },
       {
         text: 'more',
         link: '/more/',
         items: [
-          { text: '随笔', link: '/pages/a1bc87/' },
           { text: '日志', link: '/date/' },
           { text: '支持我们', link: '/money/' },
           { text: '友情链接', link: '/friends/' },
