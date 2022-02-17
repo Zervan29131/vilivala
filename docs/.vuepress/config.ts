@@ -34,7 +34,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             text: 'Git',
             items: [
               { text: 'github', link: '/pages/8143cc480faf9a11/' },         
-                   { text: 'github', link: '/pages/8143cc480faf9a11/' },
+              { text: 'github', link: '/pages/8143cc480faf9a11/' },
 
             ],
           },
@@ -59,6 +59,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: 'ToRead',
         link: '/toread/',
         items: [
+          { text: '文', link: '/pages/8309a5b876fc95e3/' },
+          { text: '人设', link: '/pages/0a83b083bdf257cb/' },
+          { text: 'READ1', link: '/pages/8309a5b876fc95e3/' },
+          { text: 'READ2', link: '/pages/0a83b083bdf257cb/' },
           { text: 'READ1', link: '/pages/8309a5b876fc95e3/' },
           { text: 'READ2', link: '/pages/0a83b083bdf257cb/' },
         ],
@@ -67,20 +71,16 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: 'fun',
         link: '/fun/',
         items: [
-          { text: 'FUN1', link: '/pages/9a7ee40fc232253e/' },
-          { text: 'FUN2', link: '/pages/4c778760be26d8b3/' },
-          { text: 'FUN3', link: '/pages/117708e0af7f0bd9/' },
-          { text: 'FUN4', link: '/pages/41f87d890d0a02af/' },
+          { text: '暂未开放', link: '/pages/9a7ee40fc232253e/' },
         ],
       },
       {
         text: 'more',
         link: '/more/',
         items: [
-          { text: '学习', link: '/pages/f2a556/' },
-          { text: '面试', link: '/pages/aea6571b7a8bae86/' },
-          { text: '支持我们', link: '/pages/2d615df9a36a98ed/' },
-          { text: '实用技巧', link: '/pages/baaa02/' },
+          { text: '随笔', link: '/pages/a1bc87/' },
+          { text: '日志', link: '/pages/a1bc89/' },
+          { text: '支持我们', link: '/money/' },
           { text: '友情链接', link: '/friends/' },
         ],
       },
@@ -106,7 +106,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
-    repo: 'Zervan29131/bilibala', // 导航栏右侧生成Github链接
+    repo: 'Zervan29131/vilivala', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
@@ -161,28 +161,27 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     social: {
       // iconfontCssFile: '//at.alicdn.com/t/xxx.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自己添加。阿里图片库：https://www.iconfont.cn/
       icons: [
-     
         {
-          iconClass: 'icon-zhihu',
-          title: '知乎',
-          link: 'https://www.zhihu.com/people/zervan',
-        },
+          iconClass: 'icon-weibo',
+          title: '微博',
+          link: 'https://weibo.com/zervan',
+        },  
         {
           iconClass: 'icon-bilibili',
           title: 'bilibili',
           link: 'https://space.bilibili.com/1650366974',
         }, 
         {
+          iconClass: 'icon-zhihu',
+          title: '知乎',
+          link: 'https://www.zhihu.com/people/zervan',
+        },
+        {
           iconClass: 'icon-douyin',
           title: '抖音',
           link: 'https://v.douyin.com/L7jT1xp/',
-        },
+        },       
         {
-          iconClass: 'icon-weibo',
-          title: '微博',
-          link: 'https://weibo.com/zervan',
-        },  
-         {
           iconClass: 'icon-youjian',
           title: '发邮件',
           link: 'mailto:nickmechlin01@outlook.com',
