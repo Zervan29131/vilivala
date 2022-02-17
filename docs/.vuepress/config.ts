@@ -39,7 +39,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: '前端',
             items: [
-              { text: '学习web开发的步骤', link: '/pages/a1bc33/' },         
+              { text: '学习web开发', link: '/pages/a2bcd1/' },         
             ],
           },          
           {
@@ -51,7 +51,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: 'git',
             items: [
-              { text: '暂未开放', link: '/pages/8143cc480faf9a11/' },         
+              { text: 'Github入门与实践', link: '/pages/c6d7d2/' },         
             ],
           }, 
         ],
