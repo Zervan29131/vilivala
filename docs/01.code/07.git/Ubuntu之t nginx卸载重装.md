@@ -1,0 +1,68 @@
+---
+title: Ubuntu之t nginx卸载重装
+date: 2022-01-20 18:16:33
+permalink: /pages/0f33d2/
+categories:
+  - code
+  - git
+tags:
+  - 
+---
+**1.删除nginx，-purge包括配置文件**
+
+```py
+sudo apt-get --purge remove nginx
+```
+
+**2.移除全部不使用的软件包**
+
+```py
+sudo apt-get autoremove
+```
+
+**3.罗列出与nginx相关的软件并删除**
+
+```py
+dpkg --get-selections|grep nginx
+sudo apt-get --purge remove nginx
+sudo apt-get --purge remove nginx-common
+sudo apt-get --purge remove nginx-core
+```
+
+**4.查看nginx正在运行的进程，如果有就kill掉**
+
+```py
+ps -ef |grep nginx
+sudo kill -9 XXX
+```
+
+**5.全局查找与nginx相关的文件**
+
+```py
+sudo  find  /  -name  nginx*
+```
+
+**6.删除列出的所有文件**
+
+```py
+sudo rm -rf file
+```
+
+**7.重装nginx**
+
+```py
+sudo apt-get update
+sudo apt-get install nginx
+```
+
+**8.测试nginx配置是否正确**
+
+```py
+sudo nginx -t
+```
+
+**9.nginx 重启**
+
+```py
+sudo service nginx restart
+```

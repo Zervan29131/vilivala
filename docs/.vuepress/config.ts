@@ -31,28 +31,29 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
-            text: 'Git',
+            text: '渗透',
             items: [
-              { text: 'github', link: '/pages/8143cc480faf9a11/' },         
-              { text: 'github', link: '/pages/8143cc480faf9a11/' },
-
+              { text: '黑客技能', link: '/pages/a1bc29/' },         
             ],
           },
           {
-            text: 'C#',
+            text: '前端',
             items: [
-              { text: 'C#1', link: '/pages/8143cc480faf9a11/' },         
-              { text: 'C#2', link: '/pages/8143cc480faf9a11/' },
-
+              { text: '学习web开发的步骤', link: '/pages/a1bc33/' },         
             ],
-          },          {
-            text: 'PHP',
+          },          
+          {
+            text: '技术',
             items: [
-              { text: 'PHP1', link: '/pages/8143cc480faf9a11/' },         
-              { text: 'PHP2', link: '/pages/8143cc480faf9a11/' },
-
+              { text: '视频制作脚本教程', link: '/pages/a1bc25/' },         
             ],
           },
+          {
+            text: 'git',
+            items: [
+              { text: '暂未开放', link: '/pages/8143cc480faf9a11/' },         
+            ],
+          }, 
         ],
       },
       {
@@ -71,7 +72,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: 'fun',
         link: '/fun/',
         items: [
-          { text: '暂未开放', link: '/pages/9a7ee40fc232253e/' },
+          { text: '经常看书和不看书', link: '/pages/a2bc20/' },
         ],
       },
       {
