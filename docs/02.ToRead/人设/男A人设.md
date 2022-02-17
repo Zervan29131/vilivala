@@ -1,3 +1,13 @@
+---
+title: 男A人设
+date: 2022-02-17 14:20:01
+permalink: /pages/fb9fa2/
+categories:
+  - ToRead
+  - 人设
+tags:
+  - 
+---
 # A
 
 他可以社交甚至是有社交牛逼症但是讨厌社交，觉得麻烦。
