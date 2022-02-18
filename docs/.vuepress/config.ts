@@ -49,7 +49,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             ],
           },
           {
-            text: 'git',
+            text: '版本控制与管理',
             items: [
               { text: 'Github入门与实践', link: '/pages/c6d7d2/' },         
             ],
@@ -82,6 +82,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             text: '教程',
             items: [
               { text: '视频制作脚本教程', link: '/pages/a1bc25/' },         
+            ],
+          },
+          {
+            text: '更多',
+            items: [
+              { text: '关于辩论赛的真相', link: '/pages/a1bc86/' },         
             ],
           },
 
