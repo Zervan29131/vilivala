@@ -60,12 +60,50 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: 'ToRead',
         link: '/toread/',
         items: [
-          { text: '文', link: '/pages/8309a5b876fc95e3/' },
-          { text: '人设', link: '/pages/0a83b083bdf257cb/' },
-          { text: 'READ1', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'READ2', link: '/pages/0a83b083bdf257cb/' },
-          { text: 'READ1', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'READ2', link: '/pages/0a83b083bdf257cb/' },
+
+          {
+            text: '序',
+            items: [
+              { text: '网文梗概-序', link: '/pages/a3f315/' },         
+            ],
+          },
+          {
+            text: '教程',
+            items: [
+              { text: '大纲', link: '/pages/a3f315/' },      
+            ],
+          },
+          {
+            text: '人设',
+            items: [
+              { text: '独立的人格', link: '/pages/a3f315/' },      
+            ],
+          },
+
+          {
+            text: '世界体系',
+            items: [
+              { text: '东方玄幻', link: '/pages/a3f315/' },      
+            ],
+          },
+          {
+            text: '感悟',
+            items: [
+              { text: '写作心得', link: '/pages/a3f315/' },      
+            ],
+          },
+          {
+            text: '素材',
+            items: [
+              { text: '描写', link: '/pages/a3f315/' },      
+            ],
+          },
+          {
+            text: '摘抄',
+            items: [
+              { text: '乌合之众', link: '/pages/a3f315/' },     
+            ],
+          },
         ],
       },
       {
