@@ -70,7 +70,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: '教程',
             items: [
-              { text: '大纲', link: '/pages/a3f315/' },      
+              { text: '写作法则', link: '/pages/20719e/' },      
             ],
           },
           {
@@ -83,25 +83,25 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: '世界体系',
             items: [
-              { text: '东方玄幻', link: '/pages/a3f315/' },      
+              { text: '东方玄幻', link: '/pages/7f407d/' },      
             ],
           },
           {
             text: '感悟',
             items: [
-              { text: '写作心得', link: '/pages/a3f315/' },      
+              { text: '写作心得', link: '/pages/aa10dc/' },      
             ],
           },
           {
             text: '素材',
             items: [
-              { text: '描写', link: '/pages/a3f315/' },      
+              { text: '描写', link: '/pages/1c1541/' },      
             ],
           },
           {
             text: '摘抄',
             items: [
-              { text: '乌合之众', link: '/pages/a3f315/' },     
+              { text: '乌合之众', link: '/pages/52b7a5/' },     
             ],
           },
         ],
