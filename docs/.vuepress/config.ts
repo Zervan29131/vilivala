@@ -76,7 +76,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: '人设',
             items: [
-              { text: '独立的人格', link: '/pages/a3f315/' },      
+              { text: '《人物设定》记录', link: '/note/design/' },      
             ],
           },
 
