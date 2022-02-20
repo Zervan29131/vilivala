@@ -76,7 +76,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: '人设',
             items: [
-              { text: '《人物设定》记录', link: '/note/design/' },      
+              { text: '《人物设定集》', link: '/note/design/' },      
             ],
           },
 
