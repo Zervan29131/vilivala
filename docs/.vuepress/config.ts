@@ -123,7 +123,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             ],
           },
           {
-            text: '更多',
+            text: '随笔',
             items: [
               { text: '关于辩论赛的真相', link: '/pages/a1bc86/' },         
             ],
