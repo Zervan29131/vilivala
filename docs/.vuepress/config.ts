@@ -60,26 +60,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: 'ToRead',
         link: '/toread/',
         items: [
-
           {
-            text: '序',
-            items: [
-              { text: '网文梗概-序', link: '/pages/a3f315/' },         
-            ],
-          },
-          {
-            text: '教程',
-            items: [
-              { text: '写作法则', link: '/pages/20719e/' },      
-            ],
-          },
-          {
-            text: '人设',
-            items: [
-              { text: '《人物设定集》', link: '/note/design/' },      
-            ],
-          },
-
+          text: '网文梗概-序', link: '/pages/a3f315/',
+           },
+           {
+            text: '我们的文学之路', link: '/pages/acd006/',
+            },
+           {
+            text: '《人物设定集》', link: '/note/design/',
+            },
           {
             text: '世界体系',
             items: [
@@ -87,21 +76,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             ],
           },
           {
-            text: '感悟',
+            text: '教程',
             items: [
-              { text: '写作心得', link: '/pages/aa10dc/' },      
+              { text: '关于大纲', link: '/pages/ed4bc6/' },      
             ],
           },
           {
             text: '素材',
             items: [
-              { text: '描写', link: '/pages/1c1541/' },      
-            ],
-          },
-          {
-            text: '摘抄',
-            items: [
-              { text: '乌合之众', link: '/pages/52b7a5/' },     
+              { text: 'V1', link: '/pages/e8ee03/' },      
             ],
           },
         ],
