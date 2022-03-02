@@ -33,7 +33,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: '渗透',
             items: [
-              { text: '黑客技能', link: '/pages/a1bc29/' },         
+              { text: '网络渗透学习指南', link: '/pages/a1bc29/' },         
             ],
           },
           {
@@ -54,6 +54,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: 'Github入门与实践', link: '/pages/c6d7d2/' },         
             ],
           }, 
+          {
+            text: '博客开发指南',
+            items: [
+              { text: '利用GitHub建立博客', link: '/pages/7e6c99/' },         
+            ],
+          }, 
+
         ],
       },
       {

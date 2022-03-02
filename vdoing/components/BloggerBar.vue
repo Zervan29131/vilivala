@@ -15,7 +15,7 @@
       />
     </div>
     <div class="blogger">
-      <span class="name">{{ blogger.name }}</span>
+      <span class="name" align="center">{{ blogger.name }}</span>
       <span class="slogan">{{ blogger.slogan }}</span>
     </div>
   </aside>
