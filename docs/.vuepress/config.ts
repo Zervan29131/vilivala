@@ -102,7 +102,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: '教程',
             items: [
-              { text: '视频制作脚本教程', link: '/pages/a1bc25/' },         
+              { text: 'Vlog制作脚本教程', link: '/pages/a1bc25/' },         
             ],
           },
           {
