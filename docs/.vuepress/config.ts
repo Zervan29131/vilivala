@@ -29,8 +29,16 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: 'code',
         link: '/code/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
-          // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
-          {
+         
+         // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
+         {
+          text: '测评',
+          items: [
+            { text: '蓝牙耳机测评', link: '/pages/7634a/' },         
+          ],
+        },
+
+         {
             text: '渗透',
             items: [
               { text: '网络渗透学习指南', link: '/pages/a1bc29/' },         
@@ -42,12 +50,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: '学习web开发', link: '/pages/a2bcd1/' },         
             ],
           },          
-          {
-            text: '技术',
-            items: [
-              { text: '面向对象编程', link: '/pages/a1bc23/' },         
-            ],
-          },
           {
             text: '版本控制与管理',
             items: [
@@ -73,27 +75,21 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
            {
             text: '我们的文学之路', link: '/pages/acd006/',
             },
+            {
+              text: '《世界观体系》', link: '/note/worldview/',
+              },
+
            {
             text: '《人物设定集》', link: '/note/design/',
             },
-          {
-            text: '世界体系',
-            items: [
-              { text: '东方玄幻', link: '/pages/7f407d/' },      
-            ],
-          },
-          {
-            text: '教程',
-            items: [
-              { text: '关于大纲', link: '/pages/ed4bc6/' },      
-            ],
-          },
-          {
-            text: '素材',
-            items: [
-              { text: 'V1', link: '/pages/e8ee03/' },      
-            ],
-          },
+            {
+              text: '《诗集》', link: '/note/poem/',
+              },
+
+        {
+         text: '《素材》', link: '/note/material/',
+         },
+  
         ],
       },
       {
@@ -101,21 +97,33 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/fun/',
         items: [
           {
-            text: '测评',
+            text: 'universe',
             items: [
-              { text: '200元以内耳机推荐', link: '/pages/7634a/' },         
+              { text: '新冠疫情与外星人', link: '/pages/3ed0f5/' },         
             ],
           },
           {
-            text: '教程',
+            text: 'human',
             items: [
-              { text: 'Vlog制作脚本教程', link: '/pages/a1bc25/' },         
+              { text: '人的自由意志论', link: '/pages/2f8f9b/' },         
             ],
           },
           {
-            text: '随笔',
+            text: 'social',
             items: [
-              { text: '关于辩论赛的真相', link: '/pages/a1bc86/' },         
+              { text: '科技的未来', link: '/pages/75357c/' },         
+            ],
+          },
+          {
+            text: 'school',
+            items: [
+              { text: '我们的大学', link: '/pages/3a9c4d/' },         
+            ],
+          },
+          {
+            text: 'philosophy',
+            items: [
+              { text: '关于虚无主义', link: '/pages/776796/' },         
             ],
           },
 
