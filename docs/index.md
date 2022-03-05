@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /img/net.png
-heroText: Zervan的小站
+heroText: 这是存在于某处的幻想世界
 tagline: Be the change you want to see in the World
 actionText: 支持一下
 actionLink: /money/

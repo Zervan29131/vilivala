@@ -14,7 +14,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     '/': {
       lang: 'zh-CN',
       title: "Zervan的小站",
-      description: 'Be the change you want to see in the World',
+      description: 'Zervanのblog',
     }
   },
   // base: '/vilivala-gh/',
@@ -208,7 +208,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     blogger: {
       avatar: '/img/console.jpg',
       name: 'Zervan',
-      slogan: 'Be the change you want to see in the World',
+      slogan: '天下最普通的人之一',
     },
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)

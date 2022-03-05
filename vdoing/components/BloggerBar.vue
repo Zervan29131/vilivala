@@ -16,7 +16,7 @@
     </div>
     <div class="blogger">
       <span class="name" align="center">{{ blogger.name }}</span>
-      <span class="slogan">{{ blogger.slogan }}</span>
+      <span class="slogan"  style="text-align: center;display:block;">{{ blogger.slogan }}</span>
     </div>
   </aside>
 </template>
