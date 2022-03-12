@@ -2,7 +2,7 @@ import { resolve } from 'path'
 import { defineConfig4CustomTheme } from 'vuepress/config'
 import { VdoingThemeConfig } from 'vuepress-theme-vdoing/types'
 import dayjs from 'dayjs'
-import baiduCode from './config/baiduCode' // 百度统计hm码
+// import baiduCode from './config/baiduCode' // 百度统计hm码
 import htmlModules from './config/htmlModules' // 自定义插入的html块
 
 
@@ -265,7 +265,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         content: 'Be the change you want to see in the World',
       },
     ],
-    ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
+    // ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
     // [
     //   'script',
@@ -286,12 +286,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // },
 
     // 百度自动推送
-    'vuepress-plugin-baidu-autopush': {},
+    // 'vuepress-plugin-baidu-autopush': {},
 
-    // 百度统计
-    'vuepress-plugin-baidu-tongji': {
-      hm: baiduCode,
-    },
+    // // 百度统计
+    // 'vuepress-plugin-baidu-tongji': {
+    //   hm: baiduCode,
+    // },
 
     // 全文搜索
     'fulltext-search': {},
@@ -352,23 +352,23 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     },
 
     // 评论区
-    'vuepress-plugin-comment': {
-      choosen: 'gitalk',
-      options: {
-        clientID: '0a0ba3159c4c845642a0',
-        clientSecret: '8c55fd00b9cf605aa0ca5dc475fec5c1b5830053',
-        repo: 'vilivala-gh', // GitHub 仓库
-        owner: 'Zervan29131', // GitHub仓库所有者
-        admin: ['Zervan29131'], // 对仓库有写权限的人
-        // distractionFreeMode: true,
-        pagerDirection: 'first', // 'first'正序 | 'last'倒序
-        id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
-        title: '「评论」<%- frontmatter.title %>', // GitHub issue 的标题
-        labels: ['Gitalk', 'Comment'], // GitHub issue 的标签
-        body:
-          '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
-      },
-    },
+    // 'vuepress-plugin-comment': {
+    //   choosen: 'gitalk',
+    //   options: {
+    //     clientID: '0a0ba3159c4c845642a0',
+    //     clientSecret: '8c55fd00b9cf605aa0ca5dc475fec5c1b5830053',
+    //     repo: 'vilivala-gh', // GitHub 仓库
+    //     owner: 'Zervan29131', // GitHub仓库所有者
+    //     admin: ['Zervan29131'], // 对仓库有写权限的人
+    //     // distractionFreeMode: true,
+    //     pagerDirection: 'first', // 'first'正序 | 'last'倒序
+    //     id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
+    //     title: '「评论」<%- frontmatter.title %>', // GitHub issue 的标题
+    //     labels: ['Gitalk', 'Comment'], // GitHub issue 的标签
+    //     body:
+    //       '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
+    //   },
+    // },
 
     // "上次更新"的时间格式
     '@vuepress/last-updated': {
@@ -380,5 +380,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
   markdown: {
     lineNumbers: true
-  }
+  },
+  // // 监听文件变化并重新构建
+  // extraWatchFiles: [
+  //   '.vuepress/config.ts',
+  //   '.vuepress/config/htmlModules.ts',
+  // ]
 })

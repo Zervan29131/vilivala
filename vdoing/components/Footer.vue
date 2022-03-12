@@ -11,13 +11,16 @@
       ></a>
     </div>
 
-    <!--Vdoing主题遵循MIT协议，完全开源且免费。如果您对主题的修改并不大，希望您保留主题的链接。-->
-    
+<!-- 不蒜子计数 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
     <a href="https://zervan.cn"
       target="_blank"
       title="zervan"
       >Zervan的小站</a> · VERSION: 1.0.128 · 基于vilivala构建
     <template v-if="footer">
+<span id="busuanzi_container_site_pv" >| pv<span id="busuanzi_value_site_pv"></span></span>
+<span id="busuanzi_container_site_uv" >と uv<span id="busuanzi_value_site_uv"></span></span>
       | Copyright © {{ footer.createYear }}-{{ new Date().getFullYear() }}
       <span v-html="footer.copyrightInfo"></span>
     </template>
