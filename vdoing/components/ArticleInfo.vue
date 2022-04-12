@@ -24,6 +24,18 @@
         </li>
       </ul>
 
+      <!-- 阅读时长和字数统计 -->
+    <!-- <div class="info">
+    <div class="author iconfont icon-touxiang" title="作者">
+
+      <i class="icon-time"></i>
+      {{$page.wordCount}} words in {{$page.readingTime}} min
+    </div>
+    <div :id="pagePath" v-if="isShowReadCount" class="leancloud_visitors" data-flag-title="Your Article Title">
+        <i class="icon-eye"></i>
+        <i class="leancloud-visitors-count">--</i>
+    </div> -->
+
       <!-- 作者&日期 -->
       <div class="info">
         <div class="author iconfont icon-touxiang" title="作者" v-if="author">

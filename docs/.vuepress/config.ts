@@ -6,19 +6,24 @@ import dayjs from 'dayjs'
 import htmlModules from './config/htmlModules' // 自定义插入的html块
 
 
+
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
   // theme: 'vdoing', // 使用npm包主题
   theme: resolve(__dirname, '../../vdoing'), // 使用本地主题
 
   locales: {
+
+
     '/': {
       lang: 'zh-CN',
       title: "Zervan的小站",
       description: 'Zervanのblog',
     }
+    
   },
   // base: '/vilivala-gh/',
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
+  
 
   // 主题配置
   themeConfig: {
@@ -209,7 +214,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       avatar: '/img/console.jpg',
       name: 'Zervan',
       slogan: '天下最普通的人之一',
+      
     },
+    
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
     social: {
@@ -277,6 +284,37 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // ], // 网站关联Google AdSense 与 html格式广告支持（你可以去掉）
   ],
 
+// .vuepress/config.ts
+// export default {
+//   plugins: [
+//     [
+//       "@mr-hope/reading-time",
+//       {
+//         // 配置选项
+//       },
+//     ],
+//   ],
+// };
+
+
+// interface ReadingTimeLocaleData {
+//   /**
+//    * 字数模板，模板中 `$word` 会被自动替换为字数
+//    */
+//   word: string;
+
+//   /**
+//    * 小于一分钟文字
+//    */
+//   less1Minute: string;
+
+//   /**
+//    * 时间模板
+//    */
+//   time: string;
+// }
+
+
   // 插件配置
   plugins: {
     // 导入本地插件（供学习参考）
@@ -292,7 +330,19 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 'vuepress-plugin-baidu-tongji': {
     //   hm: baiduCode,
     // },
-
+    //字数统计    export default 
+//     module.exports =
+// {
+//       plugins: [
+   
+//           "@mr-hope/reading-time",
+//           {
+//             // 配置选项
+//           },
+//         ],
+ 
+//     },
+'@mr-hope/reading-time':{},
     // 全文搜索
     'fulltext-search': {},
 
