@@ -17,8 +17,8 @@ if [ -z "$GITHUB_TOKEN" ]; then
   githubUrl=git@github.com:Zervan29131/vilivala-gh.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://zervan:${GITHUB_TOKEN}@github.com/Zervan29131/vilivala-gh.git
-  git config --global user.name "Zervan"
+  githubUrl=https://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@github.com/Zervan29131/vilivala-gh.git
+  git config --global user.name "宝林"
   git config --global user.email "nickmechlin01@outlook.com"
 fi
 git init
